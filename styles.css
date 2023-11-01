@@ -1,0 +1,62 @@
+.titlebox {
+    display: flex;
+    background-color: bisque;
+    justify-content: center;
+    font-size: 40px;
+    margin-left: 15%;
+    margin-right: 15%;
+    flex-direction: row;
+    
+}
+
+.titlephonenumber {
+    display: flex;
+    font-size: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: bisque;
+    justify-content: space-around;
+}
+
+.linkbox {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-around;
+    font-style: color: red;
+    flex-wrap: wrap;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 5px;
+    
+}
+
+.productCategories {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(179, 208, 231);
+    flex-wrap: wrap;
+    font-size: 30px;
+    justify-content: space-evenly;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.productCategoriesTab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+a:link {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
